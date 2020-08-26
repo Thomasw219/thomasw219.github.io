@@ -7,7 +7,6 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #151515 url(images/bg.png) repeat;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -511,7 +510,7 @@
 	#footer
 	{
 		overflow: hidden;
-		padding: 5em 0em 3em 0em;
+		padding: 2em 0em 2em 0em;
 		border-top: 1px solid rgba(0,0,0,0.08);
 	}
 	
@@ -560,8 +559,12 @@
 
 	#copyright
 	{
+		background: #151515 url(images/bg.png) repeat;
+        width:100%;
+        position: fixed;
+        bottom: 0;
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 		border-top: 1px solid rgba(255,255,255,0.05);
 	}
 	
