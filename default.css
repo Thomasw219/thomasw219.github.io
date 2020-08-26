@@ -270,7 +270,7 @@
 	.tbox1,
 	.tbox2
 	{
-		width: 490px;
+		max-width:50%;
 	}
 	
 	.tbox1
@@ -291,6 +291,7 @@
 	{
 		overflow: hidden;
 		background: #000e8c url(images/bg.png) repeat;
+        max-width:100%;
 	}
 
 	#header
@@ -396,8 +397,9 @@
 	#page-wrapper
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 2em 0em;
 		background: #FFF;
+        max-width:100%;
 	}
 
 	#page
