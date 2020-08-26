@@ -55,8 +55,15 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 70em;
+		width: 1000px;
 	}
+
+    .image2
+    {
+        margin: auto;
+        max-width:90%;
+        max-height:90%;
+    }
 	
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -270,8 +277,11 @@
 	.tbox1,
 	.tbox2
 	{
-		max-width:50%;
+        margin: auto;
+        display:block;
+		width:50%;
         height: 30em;
+        text-align: center;
 	}
 	
 	.tbox1
@@ -284,6 +294,16 @@
 		float: right;
 	}
 
+    .tbox3
+    {
+		float: left;
+        display: block;
+		width:100%;
+        margin: auto;
+        height: 30em;
+        text-align: center;
+    }
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -292,6 +312,7 @@
 	{
 		overflow: hidden;
 		background: #000e8c url(images/bg.png) repeat;
+        width: 100%;
 	}
 
 	#header
